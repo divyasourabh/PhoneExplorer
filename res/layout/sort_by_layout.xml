@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/sort_by_menu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/sort_by_name"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/sort_by_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:fontFamily="sec-roboto-light"
+                    android:paddingLeft="@dimen/dialog_list_padding"
+                    android:paddingRight="@dimen/dialog_list_padding"
+                    android:text="@string/name"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                    android:textSize="@dimen/dialog_list_item_size" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="?android:attr/listDivider" />
+
+                <RadioButton
+                    android:id="@+id/sort_by_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:fontFamily="sec-roboto-light"
+                    android:paddingLeft="@dimen/dialog_list_padding"
+                    android:paddingRight="@dimen/dialog_list_padding"
+                    android:text="@string/time"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                    android:textSize="@dimen/dialog_list_item_size" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="?android:attr/listDivider" />
+
+                <RadioButton
+                    android:id="@+id/sort_by_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:fontFamily="sec-roboto-light"
+                    android:paddingLeft="@dimen/dialog_list_padding"
+                    android:paddingRight="@dimen/dialog_list_padding"
+                    android:text="@string/size"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                    android:textSize="@dimen/dialog_list_item_size" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-regular"
+                android:gravity="center_vertical"
+                android:background="#2967A0"
+                android:paddingLeft="@dimen/dialog_list_padding"
+                android:paddingRight="@dimen/dialog_list_padding"
+                android:paddingTop="11dp"
+                android:text="@string/sheader_order"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#2967A0" />
+
+            <RadioGroup
+                android:id="@+id/in_order_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/sort_by_ascending"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@id/sort_by_ascending"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:fontFamily="sec-roboto-light"
+                    android:paddingLeft="@dimen/dialog_list_padding"
+                    android:paddingRight="@dimen/dialog_list_padding"
+                    android:text="@string/ascending"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                    android:textSize="@dimen/dialog_list_item_size" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="?android:attr/listDivider" />
+
+                <RadioButton
+                    android:id="@+id/sort_by_descending"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:fontFamily="sec-roboto-light"
+                    android:paddingLeft="@dimen/dialog_list_padding"
+                    android:paddingRight="@dimen/dialog_list_padding"
+                    android:text="@string/descending"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                    android:textSize="@dimen/dialog_list_item_size" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

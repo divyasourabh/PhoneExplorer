@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz" >
+
+    <CheckBoxPreference
+        android:key="sound"
+        android:title="@string/sound" />
+
+    <CheckBoxPreference
+        android:key="option_menu_sound"
+        android:title="@string/optionmenusound" />
+
+    <CheckBoxPreference
+        android:key="show_floating_icon"
+        android:title="@string/floatingIcon" />
+
+    <CheckBoxPreference
+        android:key="show_floating_icon_reboot"
+        android:title="@string/floatingIconreboot" />
+
+    <CheckBoxPreference
+        android:key="show_hidden"
+        android:title="@string/showHidden" />
+
+</PreferenceScreen>

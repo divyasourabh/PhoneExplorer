@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- action bar -->
+    <dimen name="action_bar_button_left_margin">9dp</dimen>
+
+    <!-- title bar (container of path indicator) -->
+    <dimen name="title_bar_height">25dp</dimen>
+    <dimen name="title_bar_sub_title_margin_left">16dp</dimen>
+
+    <!-- Hover popup item size -->
+    <dimen name="hover_no_item_width">65dp</dimen>
+    <dimen name="hover_no_item_height">65dp</dimen>
+    
+    <!-- list -->
+    <dimen name="list_item_height">56dp</dimen>
+    <dimen name="list_icon_width">47dp</dimen>
+    <dimen name="list_icon_height">47dp</dimen>
+    <dimen name="list_icon_margin_left">8dp</dimen>
+    <dimen name="list_icon_margin_right">7dp</dimen>
+    <dimen name="list_icon_overlay_width">30dp</dimen>
+    <dimen name="list_icon_overlay_height">30dp</dimen>
+    <dimen name="list_checkbox_container_width">40dp</dimen>
+    <dimen name="list_checkbox_width">44dp</dimen>
+    <dimen name="list_checkbox_left_margin">6dp</dimen>
+    <dimen name="list_radiobutton_width">30dp</dimen>
+    <dimen name="list_radiobutton_left_margin">10dp</dimen>
+    <dimen name="list_radiobutton_right_margin">12dp</dimen>
+    <dimen name="list_file_name_right_margin">4dp</dimen>
+    <dimen name="list_file_name_text_size">22sp</dimen>
+    <dimen name="list_file_size_text_size">15sp</dimen>
+    <dimen name="list_file_date_text_size">15sp</dimen>
+    <dimen name="list_title_bar_height">34dp</dimen>
+    <dimen name="list_personal_contents_icon_width">20dp</dimen>
+    <dimen name="list_personal_contents_icon_height">20dp</dimen>
+    <dimen name="list_personal_contents_icon_margin_right">10dp</dimen>
+    <dimen name="list_text_row_space">0dp</dimen>
+    
+    <!-- thumbnail view -->
+    <dimen name="thumbnail_view_item_container_height">0dp</dimen>
+    <dimen name="thumbnail_view_item_width">81dp</dimen>
+    <dimen name="thumbnail_view_item_height">81dp</dimen>
+    <dimen name="thumbnail_view_item_padding">14dp</dimen>
+    <dimen name="thumbnail_view_item_padding_left">9dp</dimen>
+    <dimen name="thumbnail_view_item_icon_width">51dp</dimen>
+    <dimen name="thumbnail_view_item_icon_height">51dp</dimen>
+    <dimen name="thumbnail_view_item_icon_margin_top">15dp</dimen>
+    <dimen name="thumbnail_view_item_icon_overlay_width">0dp</dimen>
+    <dimen name="thumbnail_view_item_icon_overlay_height">0dp</dimen>
+    <dimen name="thumbnail_view_item_title_height">17dp</dimen>
+    <dimen name="thumbnail_view_item_title_margin_top">-3dp</dimen>
+    <dimen name="thumbnail_view_item_title_padding_left">3dp</dimen>
+    <dimen name="thumbnail_view_item_title_padding_right">3dp</dimen>
+    <dimen name="thumbnail_view_item_title_size">13dp</dimen>
+    <dimen name="thumbnail_view_item_thumbnail_width">190dp</dimen>
+    <dimen name="thumbnail_view_item_thumbnail_height">140dp</dimen>
+    <dimen name="thumbnail_view_item_thumbnail_margin_top">19dp</dimen>
+    <dimen name="thumbnail_view_item_thumbnail_margin_bottom">21dp</dimen>
+    <dimen name="thumbnail_view_item_thumbnail_margin_left">14dp</dimen>
+    <dimen name="thumbnail_view_item_thumbnail_margin_right">19dp</dimen>
+    <dimen name="thumbnail_view_item_checkbox_width">30dp</dimen>
+    <dimen name="thumbnail_view_item_checkbox_height">30dp</dimen>
+    <dimen name="thumbnail_view_item_radiobutton_width">30dp</dimen>
+    <dimen name="thumbnail_view_item_radiobutton_height">30dp</dimen>
+    <dimen name="thumbnail_view_grid_padding_top">10dp</dimen>
+    <dimen name="thumbnail_view_grid_padding_bottom">27dp</dimen>
+    <dimen name="thumbnail_view_grid_padding_left">7dp</dimen>
+    <dimen name="thumbnail_view_grid_padding_right">7dp</dimen>
+    <dimen name="thumbnail_view_grid_vertical_spacing">7dp</dimen>
+    <dimen name="thumbnail_view_grid_horizontal_spacing">7dp</dimen>
+    <dimen name="thumbnail_view_item_checkbox_margin_top">0dp</dimen>
+    <dimen name="thumbnail_view_item_checkbox_margin_right">0dp</dimen>
+    <dimen name="thumbnail_view_item_radiobutton_margin_top">0dp</dimen>
+    <dimen name="thumbnail_view_item_radiobutton_margin_right">0dp</dimen>
+    
+    <!-- input dialog (create folder, rename, zip, extract) -->
+    <dimen name="input_edittext_layout_height">70dp</dimen>
+    <dimen name="input_edittext_margin_left">14dp</dimen>
+    <dimen name="input_edittext_margin_top">20dp</dimen>
+    <dimen name="input_edittext_margin_right">14dp</dimen>
+    <dimen name="input_edittext_margin_bottom">19dp</dimen>
+    <dimen name="input_button_layout_height">49dp</dimen>
+    <dimen name="input_button_margin_bottom">0.5dp</dimen>
+    <dimen name="input_button_textsize">18sp</dimen>
+
+    <!-- main category (in category home) -->
+    <dimen name="main_category_panel_margin_bottom">-4dp</dimen>
+    <dimen name="main_category_container_width">640dp</dimen>
+    <dimen name="main_category_container_height">172dp</dimen>
+    <dimen name="main_category_container_margin_top">0dp</dimen>
+    <dimen name="main_category_container_margin_bottom">0dp</dimen>
+    <dimen name="main_category_container_margin_left">0dp</dimen>
+    <dimen name="main_category_container_margin_right">0dp</dimen>
+    <dimen name="main_category_container_padding_top">11dp</dimen>
+    <dimen name="main_category_container_padding_bottom">11dp</dimen>
+    <dimen name="main_category_container_padding_left">11dp</dimen>
+    <dimen name="main_category_container_padding_right">11dp</dimen>
+    <dimen name="main_category_grid_width">618dp</dimen>
+    <dimen name="main_category_grid_height">168dp</dimen>
+    <dimen name="main_category_grid_padding_left">5dp</dimen>
+    <dimen name="main_category_grid_padding_right">5dp</dimen>
+    <dimen name="main_category_grid_padding_top">4dp</dimen>
+    <dimen name="main_category_grid_padding_bottom">2dp</dimen>
+    <dimen name="main_category_grid_vertical_spacing">2dp</dimen>
+    <dimen name="main_category_grid_horizontal_spacing">2dp</dimen>
+    <dimen name="main_category_grid_vertical_divider_thick">2dp</dimen>
+    <dimen name="main_category_grid_horizontal_divider_thick">2dp</dimen>
+    <dimen name="main_category_cell_width">156dp</dimen>
+    <dimen name="main_category_cell_height">82dp</dimen>
+    <dimen name="main_category_cell_title_margin_left">6dp</dimen>
+    <dimen name="main_category_cell_title_margin_top">6dp</dimen>
+    <dimen name="main_category_cell_title_max_width">120dp</dimen>
+    <dimen name="main_category_cell_title_text_size">15dp</dimen>
+    <dimen name="main_category_cell_size_height">16dp</dimen>
+    <dimen name="main_category_cell_size_margin_left">6dp</dimen>
+    <dimen name="main_category_cell_size_margin_right">0dp</dimen>
+    <dimen name="main_category_cell_size_margin_top">0dp</dimen>    
+    <dimen name="main_category_cell_size_text_size">13dp</dimen>
+    <dimen name="main_category_cell_icon_width">74dp</dimen>
+    <dimen name="main_category_cell_icon_height">74dp</dimen>
+    <dimen name="main_category_cell_icon_margin_bottom">-5dp</dimen>
+    <dimen name="main_category_cell_icon_margin_right">-5dp</dimen>
+    
+    <!-- main category multiwindow (in category home) -->
+    <dimen name="main_category_panel_margin_bottom_multiwindow">0dp</dimen>
+    <dimen name="main_category_container_width_multiwindow">348dp</dimen>
+    <dimen name="main_category_container_height_multiwindow">376dp</dimen>
+    <dimen name="main_category_container_margin_top_multiwindow">4dp</dimen>
+    <dimen name="main_category_container_margin_bottom_multiwindow">3dp</dimen>
+    <dimen name="main_category_container_margin_left_multiwindow">3dp</dimen>
+    <dimen name="main_category_container_margin_right_multiwindow">3dp</dimen>
+    <dimen name="main_category_container_padding_top_multiwindow">10dp</dimen>
+    <dimen name="main_category_container_padding_bottom_multiwindow">10dp</dimen>
+    <dimen name="main_category_container_padding_left_multiwindow">11dp</dimen>
+    <dimen name="main_category_container_padding_right_multiwindow">11dp</dimen>
+    <dimen name="main_category_grid_width_multiwindow">326dp</dimen>
+    <dimen name="main_category_grid_height_multiwindow">368dp</dimen>
+    <dimen name="main_category_grid_vertical_divider_thick_multiwindow">2dp</dimen>
+    <dimen name="main_category_grid_vertical_divider_first_margin_left_multiwindow">162dp</dimen>
+    <dimen name="main_category_grid_vertical_divider_margin_left_multiwindow">162dp</dimen>
+    <dimen name="main_category_grid_horizontal_divider_thick_multiwindow">2dp</dimen>
+    <dimen name="main_category_grid_horizontal_divider_first_margin_top_multiwindow">88dp</dimen>
+    <dimen name="main_category_grid_horizontal_divider_margin_top_multiwindow">87dp</dimen>
+    <dimen name="main_category_cell_width_multiwindow">163dp</dimen>
+    <dimen name="main_category_cell_height_multiwindow">89dp</dimen>
+    <dimen name="main_category_cell_text_container_padding_left">6dp</dimen>
+    <dimen name="main_category_cell_text_container_padding_top">6dp</dimen>
+    <dimen name="main_category_cell_text_container_padding_left_multiwindow">12dp</dimen>
+    <dimen name="main_category_cell_text_container_padding_top_multiwindow">6dp</dimen>
+    <dimen name="main_category_cell_title_text_size_multiwindow">18dp</dimen>
+    <dimen name="main_category_cell_size_text_size_multiwindow">14dp</dimen>
+    <dimen name="main_category_cell_icon_width_multiwindow">74dp</dimen>
+    <dimen name="main_category_cell_icon_height_multiwindow">74dp</dimen>
+    <dimen name="main_category_cell_icon_margin_top_multiwindow">9dp</dimen>
+    <dimen name="main_category_cell_icon_margin_right_multiwindow">4dp</dimen>
+    
+    <!-- shortcut panel -->
+    <dimen name="shortcut_panel_width">640dp</dimen>
+    <dimen name="shortcut_panel_height">68dp</dimen>
+    <dimen name="shortcut_panel_padding_top">4dp</dimen>
+    <dimen name="shortcut_panel_margin_bottom">1dp</dimen>
+    <dimen name="shortcut_panal_left_arrow_margin">3dp</dimen>
+    <dimen name="shortcut_panal_right_arrow_margin">3dp</dimen>
+    <dimen name="shortcut_cell_width">92dp</dimen>
+    <dimen name="shortcut_cell_height">68dp</dimen>
+    <dimen name="shortcut_cell_icon_width">49dp</dimen>
+    <dimen name="shortcut_cell_icon_height">39dp</dimen>
+    <dimen name="shortcut_cell_icon_margin_top">10dp</dimen>
+    <dimen name="shortcut_cell_icon_margin_bottom">0dp</dimen>
+    <dimen name="shortcut_cell_title_height">15dp</dimen>
+    <dimen name="shortcut_cell_title_margin_left">3dp</dimen>
+    <dimen name="shortcut_cell_title_margin_right">3dp</dimen>
+    <dimen name="shortcut_cell_title_padding_left">9dp</dimen>
+    <dimen name="shortcut_cell_title_padding_right">9dp</dimen>
+    <dimen name="shortcut_cell_add_icon_width">49dp</dimen>
+    <dimen name="shortcut_cell_add_icon_height">39dp</dimen>
+    <dimen name="shortcut_cell_checkbox_width">40dp</dimen>
+    <dimen name="shortcut_cell_checkbox_height">45dp</dimen>
+    <dimen name="shortcut_cell_checkbox_margin_top">2dp</dimen>
+    <dimen name="shortcut_cell_checkbox_margin_right">2dp</dimen>
+    <dimen name="shortcut_panel_padding_left">19dp</dimen>
+    <dimen name="shortcut_panel_padding_right">19dp</dimen>
+    <dimen name="shortcut_panel_middile_space">10dp</dimen>
+    <item name="shortcut_cell_checkbox_scale" format="float" type="dimen">0.8</item>
+    <dimen name="shortcut_page_arrow_margin_outside">3dp</dimen>
+    
+    <!-- shortcut panel multiwindow -->
+    <dimen name="shortcut_panel_width_multiwindow">360dp</dimen>
+    <dimen name="shortcut_panel_height_multiwindow">78dp</dimen>
+    <dimen name="shortcut_panel_padding_top_multiwindow">4dp</dimen>
+    <dimen name="shortcut_panel_margin_bottom_multiwindow">1dp</dimen>
+    <dimen name="shortcut_panel_vertical_divider_thick_multiwindow">2dp</dimen>
+    <dimen name="shortcut_panel_vertical_divider_first_margin_left_multiwindow">89dp</dimen>
+    <dimen name="shortcut_panel_vertical_divider_margin_left_multiwindow">88dp</dimen>
+    <dimen name="shortcut_panel_horizontal_divider_thick_multiwindow">2dp</dimen>
+    <dimen name="shortcut_panel_horizontal_divider_margin_top_multiwindow">73dp</dimen>
+    <dimen name="shortcut_cell_width_multiwindow">90dp</dimen>
+    <dimen name="shortcut_cell_height_multiwindow">74dp</dimen>
+    <dimen name="shortcut_cell_icon_width_multiwindow">44dp</dimen>
+    <dimen name="shortcut_cell_icon_height_multiwindow">37dp</dimen>
+    <dimen name="shortcut_cell_icon_margin_top_multiwindow">9dp</dimen>
+    <dimen name="shortcut_cell_icon_margin_bottom_multiwindow">4dp</dimen>
+    <dimen name="shortcut_cell_title_height_multiwindow">17dp</dimen>
+    <dimen name="shortcut_cell_title_padding_left_multiwindow">7dp</dimen>
+    <dimen name="shortcut_cell_title_padding_right_multiwindow">7dp</dimen>
+    <dimen name="shortcut_cell_add_icon_width_multiwindow">49dp</dimen>
+    <dimen name="shortcut_cell_add_icon_height_multiwindow">39dp</dimen>
+    <dimen name="shortcut_cell_checkbox_width_multiwindow">40dp</dimen>
+    <dimen name="shortcut_cell_checkbox_height_multiwindow">45dp</dimen>
+    <dimen name="shortcut_cell_checkbox_margin_top_multiwindow">2dp</dimen>
+    <dimen name="shortcut_cell_checkbox_margin_right_multiwindow">2dp</dimen>
+    
+    <!-- storage usage -->
+    <dimen name="storage_usage_dialog_width">0dp</dimen>
+    <dimen name="storage_usage_dialog_height">0dp</dimen>
+    <dimen name="storage_usage_width">640dp</dimen>
+    <dimen name="storage_usage_height">55dp</dimen>
+    <dimen name="storage_usage_bar_height">12dp</dimen>
+    <dimen name="storage_usage_bar_margin_top">2dp</dimen>
+    <dimen name="storage_usage_bar_margin_left">19dp</dimen>
+    <dimen name="storage_usage_bar_margin_right">19dp</dimen>
+    <dimen name="storage_usage_bar_min_tick_width">6dp</dimen>
+    <dimen name="storage_usage_information_height">13dp</dimen>
+    <dimen name="storage_usage_left_arrow_margin">3dp</dimen>
+    <dimen name="storage_usage_right_arrow_margin">3dp</dimen>
+    <dimen name="storage_usage_information_margin_top">5dp</dimen>
+    <dimen name="storage_usage_storage_type_text_size">10dp</dimen>
+    <dimen name="storage_usage_space_info_text_size">10dp</dimen>    
+    <dimen name="storage_usage_space_info_height">14dp</dimen>
+    <dimen name="storage_usage_space_information_height">0dp</dimen>
+    <dimen name="storage_usage_space_info_margin_left">19dp</dimen>
+    <dimen name="storage_usage_space_information_margin_top">0dp</dimen>
+    <dimen name="storage_usage_category_margin_top">0dp</dimen>
+    <dimen name="storage_usage_page_indicator_height">22dp</dimen>
+    <dimen name="storage_usage_page_indicator_margin_left">19dp</dimen>
+    <dimen name="storage_usage_page_indicator_margin_right">19dp</dimen>
+    <dimen name="storage_usage_page_indicator_bubble_width">8dp</dimen>
+    <dimen name="storage_usage_page_indicator_bubble_height">8dp</dimen>
+    <dimen name="storage_usage_page_indicator_bubble_margin_left">7dp</dimen>
+    <dimen name="storage_usage_category_margin_left">17dp</dimen>
+    <dimen name="storage_usage_category_icon_width">11dp</dimen>
+    <dimen name="storage_usage_category_icon_height">11dp</dimen>
+    <dimen name="storage_usage_category_text_margin_left">3dp</dimen>
+    <dimen name="storage_usage_category_text_margin_right">10dp</dimen>
+    <dimen name="storage_usage_category_text_size">13dp</dimen>    
+    <dimen name="storage_usage_page_arrow_width">10dp</dimen>
+    <dimen name="storage_usage_page_arrow_height">16dp</dimen>
+    <dimen name="storage_usage_page_arrow_margin_top">18dp</dimen>
+    <dimen name="storage_usage_page_arrow_margin_outside">3dp</dimen>
+    
+    <!-- storage usage multiwindow -->
+    <dimen name="storage_usage_width_multiwindow">360dp</dimen>
+    <dimen name="storage_usage_height_multiwindow">76dp</dimen>
+    <dimen name="storage_usage_bar_height_multiwindow">18dp</dimen>
+    <dimen name="storage_usage_bar_margin_top_multiwindow">3dp</dimen>
+    <dimen name="storage_usage_bar_margin_left_multiwindow">17dp</dimen>
+    <dimen name="storage_usage_bar_margin_right_multiwindow">17dp</dimen>
+    <dimen name="storage_usage_bar_min_tick_width_multiwindow">6dp</dimen>
+    <dimen name="storage_usage_information_height_multiwindow">14dp</dimen>
+    <dimen name="storage_usage_information_margin_top_multiwindow">9dp</dimen>
+    <dimen name="storage_usage_space_info_height_multiwindow">13dp</dimen>
+    <dimen name="storage_usage_space_info_margin_left_multiwindow">17dp</dimen>
+    <dimen name="storage_usage_page_indicator_height_multiwindow">22dp</dimen>
+    <dimen name="storage_usage_page_indicator_margin_left_multiwindow">17dp</dimen>
+    <dimen name="storage_usage_page_indicator_margin_right_multiwindow">17dp</dimen>
+    <dimen name="storage_usage_page_indicator_bubble_width_multiwindow">8dp</dimen>
+    <dimen name="storage_usage_page_indicator_bubble_height_multiwindow">8dp</dimen>
+    <dimen name="storage_usage_page_indicator_bubble_margin_left_multiwindow">7dp</dimen>
+    <dimen name="storage_usage_category_margin_left_multiwindow">15dp</dimen>
+    <dimen name="storage_usage_category_icon_width_multiwindow">11dp</dimen>
+    <dimen name="storage_usage_category_icon_height_multiwindow">11dp</dimen>
+    <dimen name="storage_usage_category_text_margin_left_multiwindow">3dp</dimen>
+    <dimen name="storage_usage_category_text_margin_right_multiwindow">8dp</dimen>
+    <dimen name="storage_usage_page_arrow_width_multiwindow">10dp</dimen>
+    <dimen name="storage_usage_page_arrow_height_multiwindow">18dp</dimen>
+    <dimen name="storage_usage_page_arrow_margin_top_multiwindow">26dp</dimen>
+    <dimen name="storage_usage_page_arrow_margin_outside_multiwindow">3dp</dimen>
+    
+    <!-- tree view -->
+    <dimen name="tree_view_item_height">56dp</dimen>
+    <dimen name="tree_view_item_depth_width">14dp</dimen>
+    <dimen name="tree_view_item_expandable_indicator_width">0dp</dimen>
+    <dimen name="tree_view_item_expandable_indicator_height">0dp</dimen>
+    <dimen name="tree_view_item_icon_width">40dp</dimen>
+    <dimen name="tree_view_item_icon_height">40dp</dimen>
+    <dimen name="tree_view_item_icon_margin_left">8dp</dimen>
+    <dimen name="tree_view_item_icon_margin_right">7dp</dimen>
+    <dimen name="tree_view_item_list_margin_right">10dp</dimen>
+    
+    <!-- path indicator -->
+    <dimen name="path_indicator_height">32dp</dimen>
+    <dimen name="path_indicator_top_line_thick">2dp</dimen>
+    <dimen name="path_indicator_button_margin_left">-9dp</dimen>
+    <dimen name="path_indicator_button_text_size">15dp</dimen>
+    <dimen name="path_indicator_first_button_padding_left">12dp</dimen>
+    <dimen name="path_indicator_button_padding_left">15dp</dimen>
+    <dimen name="path_indicator_button_padding_right">16dp</dimen>
+    
+    <!-- expandable list -->
+    <dimen name="expandable_list_land_height">629dp</dimen>
+    <dimen name="expandable_list_port_height">992dp</dimen>
+    <dimen name="expandable_list_collapsed_height">1dp</dimen>
+    <dimen name="expandable_list_sub_titlebar_height">34dp</dimen>
+    <dimen name="expandable_list_sub_titlebar_text_margin_left">14dp</dimen>
+    <dimen name="expandable_list_sub_titlebar_text_size">20dp</dimen>
+    <dimen name="expandable_list_fold_indicator_width">32dp</dimen>
+    <dimen name="expandable_list_fold_indicator_height">32dp</dimen>
+    <dimen name="expandable_list_fold_indicator_margin_right">23dp</dimen>
+        
+    <!-- split view -->
+    <dimen name="left_panel_width">240dp</dimen>
+    <dimen name="right_panel_width">400dp</dimen>
+    <dimen name="split_view_left_panel_default_width">280dp</dimen>
+    <dimen name="split_view_left_panel_min_width">12dp</dimen>
+    <dimen name="split_view_right_panel_min_width">0dp</dimen>
+    <dimen name="split_bar_width">12dp</dimen>
+    <dimen name="split_bar_margin_left">-9dp</dimen>
+    <dimen name="split_bar_margin_right">0dp</dimen>
+    
+    <!-- Search -->
+    <dimen name="search_header_layout_height">56dp</dimen>
+    <dimen name="search_header_layout_height_padding_left">12dp</dimen>
+    <dimen name="search_header_layout_height_padding_right">12dp</dimen>
+    <dimen name="search_dropdown_button_height">38dp</dimen>
+    <dimen name="search_dropdown_button_item_height">48dp</dimen>
+    <dimen name="search_dropdown_button_width">123dp</dimen>
+    <dimen name="search_dropdown_button_text_size">18dp</dimen>
+    <dimen name="search_search_view_height">44dp</dimen>
+    <dimen name="search_search_view_width">260dp</dimen>
+    <dimen name="search_file_type_list_row_checkbox_marginright">12dp</dimen>
+    <dimen name="search_framelayout_margin_top">5dp</dimen>
+    <dimen name="search_dropdown_left_padding">5dp</dimen>
+    
+    <!-- GridView -->
+    <integer name="gridview_portrait_numColumns">2</integer>
+    <integer name="gridview_landscape_numColumns">4</integer>
+
+    <!-- Dialog -->
+    <dimen name="dialog_list_padding">17dp</dimen>
+    <dimen name="dialog_progressbar_marginleft">7dp</dimen>
+    <dimen name="dialog_progressbar_marginright">7dp</dimen>
+    
+    <!-- Advance Search -->
+    <dimen name="advanced_search_item_height">56dp</dimen>
+    <dimen name="advance_search_textview_width">128dp</dimen>
+    <dimen name="advance_search_left_margin">16dp</dimen>
+    <dimen name="advance_search_right_margin">16dp</dimen>
+    <dimen name="dialog_list_item_height">48dp</dimen>
+    
+    <!-- Set Date Dialog -->
+    <dimen name="setdate_margin_top">9dp</dimen>
+    <dimen name="setdate_margin_bottom">5dp</dimen>
+    <dimen name="setdate_margin_left">17dp</dimen>
+    <dimen name="setdate_text_size">17dp</dimen>
+    
+    <!-- multiwindow (not used yet)-->
+    <dimen name="multiwindow_app_default_width">0dp</dimen>
+    <dimen name="multiwindow_app_default_height">0dp</dimen>
+    <dimen name="multiwindow_app_minimum_width">0dp</dimen>
+    <dimen name="multiwindow_app_minimum_height">0dp</dimen>
+    
+    <!-- drag & drop -->
+    <dimen name="drag_shadow_width">0dp</dimen>
+    <dimen name="drag_shadow_height">56dp</dimen>
+    <dimen name="drag_shadow_icon_width">48dp</dimen>
+    <dimen name="drag_shadow_icon_height">48dp</dimen>
+    <dimen name="drag_shadow_icon_margin_top">4dp</dimen>
+    <dimen name="drag_shadow_icon_margin_bottom">4dp</dimen>
+    <dimen name="drag_shadow_icon_margin_left">3dp</dimen>
+    <dimen name="drag_shadow_icon_margin_right">12dp</dimen>
+    <dimen name="drag_shadow_text_size">22sp</dimen>
+    <dimen name="drag_shadow_text_margin_right">27dp</dimen>
+
+    <!-- AddFTP -->
+    <dimen name="add_ftp_textview_oneline">19sp</dimen>
+    <dimen name="add_ftp_textview_twolines">18sp</dimen>
+    <dimen name="add_ftp_default_left_padding">0dp</dimen>
+    <dimen name="add_ftp_default_right_padding">0dp</dimen>
+    <dimen name="add_ftp_default_list_row_height">56dp</dimen>
+    <dimen name="add_ftp_default_list_devider_line">1dp</dimen>
+    <dimen name="add_ftp_list_left_padding">16dp</dimen>
+    <dimen name="add_ftp_list_right_padding">10dp</dimen>
+    
+    <!-- Empty view -->
+    <dimen name="empty_view_icon_width">126dp</dimen>
+    <dimen name="empty_view_icon_height">126dp</dimen>
+    <dimen name="empty_view_title_text_size">19dp</dimen>
+    <dimen name="empty_view_title_text_margin_top">0dp</dimen>
+
+    <!-- shortcut list (tablet) -->
+    <dimen name="shortcut_list_item_height">0dp</dimen>
+    <dimen name="shortcut_list_icon_width">0dp</dimen>
+    <dimen name="shortcut_list_icon_height">0dp</dimen>
+    <dimen name="shortcut_list_icon_margin_left">0dp</dimen>
+    <dimen name="shortcut_list_icon_margin_right">0dp</dimen>
+    
+</resources>
